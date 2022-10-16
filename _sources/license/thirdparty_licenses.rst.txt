@@ -53,6 +53,13 @@ Some dependencies, like GoogleTest, are not used in our officially distributed b
      - 2018 Open Source Robotics Foundation, Inc.
      - - |fa-file-alt| Copy in repository: :file:`/doc/extensions/empy_helpers/__init__.py` (modified)
 
+   * - `Findqwt.cmake <https://gitlab.kitware.com/cmake/community/-/wikis/contrib/modules/FindQwt>`_
+     - :ref:`findqwt-bsd-2`
+     - Copyright 2010-2013, Julien Schueller
+
+       Copyright 2018-2020, Rolf Eike Beer
+     - - |fa-file-alt| Copy in repository (modified): ``cmake/Modules/Findqwt.cmake``
+
    * - `fineFTP Server <https://github.com/continental/fineftp-server>`_
      - :ref:`mit_license`
      - 2020 Continental Corporation
@@ -75,29 +82,16 @@ Some dependencies, like GoogleTest, are not used in our officially distributed b
        - |fa-windows| Binary distributions for Windows
        - |fa-ubuntu| Binary distributions for Linux
 
-   * - `Google Test <https://github.com/google/googletest>`_
-     - :ref:`bsd_3`
-     - Copyright 2008 Google Inc.
-     - - |fa-github| Git submodule ``/tirdparty/googletest``
-
    * - `Google Protobuf <https://developers.google.com/protocol-buffers>`_
      - :ref:`bsd_3`
      - Copyright 2008 Google Inc.
      - - |fa-github| Git submodule ``/tirdparty/protobuf``
        - |fa-windows| Binary distributions for Windows
 
-   * - `modpath.iss <http://www.legroom.net/software>`_
-     - :ref:`lgpl_3_0`
-     - Jared Breland
-     - - |fa-file-alt| Copy in repository: :file:`/cpack/innosetup/modpath.iss`
-       - |fa-windows| Binary distributions for Windows (Installer only)
-
-   * - `npcap <https://nmap.org/npcap/>`_
-     - :ref:`npcap_license`
-     - 2013-2021 by Insecure.Com LLC
-     - Not included due to licensing issues.
-       Please check out the :ref:`npcap chapter <configuration_npcap>`.
-       eCAL for Windows links against the npcap SDK.
+   * - `Google Test <https://github.com/google/googletest>`_
+     - :ref:`bsd_3`
+     - Copyright 2008 Google Inc.
+     - - |fa-github| Git submodule ``/tirdparty/googletest``
 
    * - `HDF5 <https://www.hdfgroup.org/solutions/hdf5>`_
      - :ref:`hdf5_bsd_3`
@@ -113,6 +107,19 @@ Some dependencies, like GoogleTest, are not used in our officially distributed b
      - - |fa-github| Git submodule ``/tirdparty/curl``
        - |fa-windows| Binary distributions for Windows
 
+   * - `modpath.iss <http://www.legroom.net/software>`_
+     - :ref:`lgpl_3_0`
+     - Jared Breland
+     - - |fa-file-alt| Copy in repository: :file:`/cpack/innosetup/modpath.iss`
+       - |fa-windows| Binary distributions for Windows (Installer only)
+
+   * - `npcap <https://nmap.org/npcap/>`_
+     - :ref:`npcap_license`
+     - 2013-2021 by Insecure.Com LLC
+     - Not included due to licensing issues.
+       Please check out the :ref:`npcap chapter <configuration_npcap>`.
+       eCAL for Windows links against the npcap SDK.
+
    * - `PcapPlusPlus <https://pcapplusplus.github.io/>`_
      - :ref:`unlicense_license`
      - 2021 seladb
@@ -122,6 +129,20 @@ Some dependencies, like GoogleTest, are not used in our officially distributed b
      - :ref:`lgpl_3_0`
      - The Qt Company Ltd.
      - - |fa-windows| Binary distributions for Windows
+
+   * - `qwt <https://sourceforge.net/projects/qwt/>`_
+     - :ref:`qwt_license`
+     - 	Uwe Rathmann
+     - - |fa-github| Git submodule ``/tirdparty/qwt/qwt``
+       - |fa-windows| Binary distributions for Windows
+       - |fa-ubuntu| Binary distributions for Linux
+
+   * - `recycle <https://github.com/steinwurf/recycle>`_
+     - :ref:`bsd_3`
+     - Copyright (c) 2014, Steinwurf ApS
+     - - |fa-github| Git submodule ``/tirdparty/recycle``
+       - |fa-windows| Binary distributions for Windows
+       - |fa-ubuntu| Binary distributions for Linux
 
    * - `SimpleIni <https://github.com/brofield/simpleini>`_
      - :ref:`mit_license`
@@ -155,6 +176,13 @@ Some dependencies, like GoogleTest, are not used in our officially distributed b
        - |fa-windows| Binary distributions for Windows
        - |fa-ubuntu| Binary distributions for Linux
 
+   * - `tcp_pubsub <https://github.com/continental/tcp_pubsub>`_
+     - :ref:`mit_license`
+     - Copyright (c) 2021 Continental
+     - - |fa-github| Git submodule ``/tirdparty/tcp_pubsub``
+       - |fa-windows| Binary distributions for Windows
+       - |fa-ubuntu| Binary distributions for Linux
+
    * - `termcolor <https://github.com/ikalnytskyi/termcolor>`_
      - :ref:`bsd_3`
      - 2013, Ihor Kalnytskyi
@@ -166,6 +194,13 @@ Some dependencies, like GoogleTest, are not used in our officially distributed b
      - :ref:`zlib_license`
      - 	Lee Thomason
      - - |fa-github| Git submodule ``/tirdparty/tinyxml``
+       - |fa-windows| Binary distributions for Windows
+       - |fa-ubuntu| Binary distributions for Linux
+
+   * - `yaml-cpp <https://github.com/jbeder/yaml-cpp/>`_
+     - :ref:`mit_license`
+     - 	Copyright (c) 2008-2015 Jesse Beder
+     - - |fa-github| Git submodule ``/thirdparty/yaml-cpp``
        - |fa-windows| Binary distributions for Windows
        - |fa-ubuntu| Binary distributions for Linux
 
@@ -183,6 +218,8 @@ License texts
    thirdparty_licenses/boost-1.0.rst
    thirdparty_licenses/bsd-3.rst
    thirdparty_licenses/convert-utf.rst
+   thirdparty_licenses/creative-commons-3.0.rst
+   thirdparty_licenses/findqwt-bsd-2.rst
    thirdparty_licenses/fontawesome-free.rst
    thirdparty_licenses/gpl-2.0.rst
    thirdparty_licenses/gpl-3.0.rst
@@ -191,5 +228,6 @@ License texts
    thirdparty_licenses/lgpl-3.0.rst
    thirdparty_licenses/mit.rst
    thirdparty_licenses/npcap.rst
+   thirdparty_licenses/qwt.rst
    thirdparty_licenses/unlicense.rst
    thirdparty_licenses/zlib.rst

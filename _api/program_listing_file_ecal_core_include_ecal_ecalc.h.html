@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="docsearch:name" content="eCAL Documentation" />
+    <meta name="docsearch:name" content="Eclipse eCAL™" />
     <meta name="docsearch:package_type" content="" />
     <meta name="docsearch:release" content="" />
     <meta name="docsearch:version" content="" />
 
-    <title>Program Listing for File ecalc.h &mdash; eCAL Documentation  documentation</title>
+    <title>Program Listing for File ecalc.h &mdash; Eclipse eCAL™  documentation</title>
 
     <link rel="shortcut icon" href="../_static/img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="../_static/css/theme.css" />
@@ -16,11 +16,12 @@
     <link rel="stylesheet" type="text/css" href="../_static/css/fontawesome.css" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/theme_addon.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/tabs.css" />
 <!-- linktags -->
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="top" title="eCAL Documentation  documentation" href="#" />
+    <link rel="top" title="Eclipse eCAL™  documentation" href="#" />
 <!-- /linktags -->
 <!-- extrahead --><!-- /extrahead -->
     <script src="../_static/js/modernizr.min.js"></script>
@@ -33,16 +34,27 @@
 
         <div class="page-header">
             <div class="page-header-inner">
-<!-- pageheader -->
+<!--block pageheader-->
+<div class="row">
+    <div class="col-sm-6 col-lg-7">
 
-<div class="logo">
-<a href="https://continental.github.io/ecal/" title="eCAL Documentation" >
-    <img src="../_static/img/ecal-logo.svg" width="484" height="130" alt="eCAL Logo" class="logo-image" />
-</a>
-</div>
-<!-- /pageheader -->
-            </div>
+        <div class="logo">
+        <a href="https://eclipse-ecal.github.io/ecal/" title="eCAL Documentation" >
+
+            <img src="../_static/img/ecal-logo.svg" width="484" height="130" alt="eCAL Logo" class="logo-image" />
+        </a>
         </div>
+    </div><!--/.col-x-->
+    <div class="col-sm-6 col-lg-5">
+        <div role="search">
+            
+            <!--form global search-->
+        </div>
+    </div><!--/.col-x-->
+</div><!--/.row-->
+<!--/block pageheader-->
+            </div><!--/.page-header-inner-->
+        </div><!--/.page-header-inner-->
 
         
 
@@ -52,7 +64,7 @@
                     <nav>
                         <input type="checkbox" id="toggleToc" class="toc-checkbox">
                         <div class="toc-header"><div class="toc-title">
-                                    <a class="toc-title-project" href="../index.html">eCAL Documentation</a></div><div class="toc-actions">
+                                    <a class="toc-title-project" href="../index.html">Eclipse eCAL™</a></div><div class="toc-actions">
                                 <label for="toggleToc" class="toc-toggle">
                                     Menu
                                 </label>
@@ -99,13 +111,13 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../development/build_ecal.html">Building eCAL</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../development/building_ecal_from_source.html">Building eCAL from source</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../development/building_ecal_with_conan_dependencies.html">Building eCAL with Conan dependencies</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../development/ecal_cmake_options.html">CMake options</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../ecal_api.html">eCAL API</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="ecal_root.html">C++</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="namespace_eCAL.html">Namespace eCAL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="namespace_eCAL__Config.html">Namespace eCAL::Config</a></li>
 <li class="toctree-l3"><a class="reference internal" href="namespace_eCAL__eh5.html">Namespace eCAL::eh5</a></li>
 <li class="toctree-l3"><a class="reference internal" href="namespace_eCAL__Init.html">Namespace eCAL::Init</a></li>
 <li class="toctree-l3"><a class="reference internal" href="namespace_eCAL__Logging.html">Namespace eCAL::Logging</a></li>
@@ -119,10 +131,14 @@
 <li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1eh5_1_1SEntryInfo.html">Struct SEntryInfo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1QOS_1_1SReaderQOS.html">Struct SReaderQOS</a></li>
 <li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1QOS_1_1SWriterQOS.html">Struct SWriterQOS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SClientAttr.html">Struct SClientAttr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SClientEventCallbackData.html">Struct SClientEventCallbackData</a></li>
 <li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SEventHandle.html">Struct SEventHandle</a></li>
 <li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SPubEventCallbackData.html">Struct SPubEventCallbackData</a></li>
 <li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SReceiveCallbackData.html">Struct SReceiveCallbackData</a></li>
-<li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SServiceInfo.html">Struct SServiceInfo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SServerEventCallbackData.html">Struct SServerEventCallbackData</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SServiceAttr.html">Struct SServiceAttr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SServiceResponse.html">Struct SServiceResponse</a></li>
 <li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1SSubEventCallbackData.html">Struct SSubEventCallbackData</a></li>
 <li class="toctree-l3"><a class="reference internal" href="structeCAL_1_1TLayer_1_1STLayer.html">Struct STLayer</a></li>
 <li class="toctree-l3"><a class="reference internal" href="classCDynamicSleeper.html">Class CDynamicSleeper</a></li>
@@ -144,7 +160,8 @@
 <li class="toctree-l3"><a class="reference internal" href="enum_ecal__process__severity_8h_1af54a320816f7e73015680c0cef91ca17.html">Enum eCAL_Process_eSeverity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="enum_ecal__process__severity_8h_1a2555c88c6ad7b7279f700f0357a8312a.html">Enum eCAL_Process_eSeverity_Level</a></li>
 <li class="toctree-l3"><a class="reference internal" href="enum_ecal__process__mode_8h_1ac07aba7e64cb7795b08212f4072658b8.html">Enum eCAL_Process_eStartMode</a></li>
-<li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1aa62e7968018d3c25e443ba6a7278fe06.html">Function client_call_method</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1a8f33dfb4c563e82391cb4a0e3d1b0089.html">Function client_call_method</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1a7b5e4e316b89e78eef3da213d4f9dd8d.html">Function client_call_method_async</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1a10bdcde88fbe9b6c7491b2b3ba794e4e.html">Function client_create</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1a7acefeb93d842698df5ade150870d107.html">Function client_destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1ade6b59f214874534a6518be2f186eaa0.html">Function client_set_hostname</a></li>
@@ -152,6 +169,45 @@
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1a829d5fbcae1f370afe411a44065fbcd3.html">Function dyn_json_sub_create</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1a0aed2c922b11b65e57b28055de17c421.html">Function dyn_json_sub_destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1ad5563ed5725905ab6cb5266f3000813f.html">Function dyn_json_sub_rem_receive_callback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a5192f32d6157255d0d5d9295f38e02cb.html">Function eCAL::Config::GetConsoleLogFilter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a2021665a60dc38ea96ec53dfeeabb2ac.html">Function eCAL::Config::GetEcalSysFilterExcludeList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1acfc8c09605825c36ae84ed2c38216112.html">Function eCAL::Config::GetFileLogFilter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a0e61706ed81e23d251be210649974bba.html">Function eCAL::Config::GetLoadedEcalIniPath</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a0e2293d2d291224c6715ed8441242970.html">Function eCAL::Config::GetMaxUdpBandwidthBytesPerSecond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a587f04c8d34bcff1de60110e9c620509.html">Function eCAL::Config::GetMemfileAckTimeoutMs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a1bf3ad9215f2024d6466864e3aa35798.html">Function eCAL::Config::GetMemfileBufferCount</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a97a61c0d4557c82db8a4dd926cf228dd.html">Function eCAL::Config::GetMemfileMinsizeBytes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1acb1fa98d1fa7cd20a141c900b6cbb9ee.html">Function eCAL::Config::GetMemfileOverprovisioningPercentage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1aae50703f55499562d9e78c2f23fe781a.html">Function eCAL::Config::GetMonitoringFilterExcludeList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a15cbfc38f2be568d32f8e227751254f1.html">Function eCAL::Config::GetMonitoringFilterIncludeList</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a1f51f220b4b541f92e55c07386659c45.html">Function eCAL::Config::GetMonitoringTimeoutMs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a84de65e00d3c504f8a86962708302523.html">Function eCAL::Config::GetPublisherInprocMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a9bb9908f7068ebdc8ab68e65632cfd07.html">Function eCAL::Config::GetPublisherShmMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a0670b3cc479851b5321f8784befe887c.html">Function eCAL::Config::GetPublisherTcpMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a908deeb83f898d5d14eaeddad4570e97.html">Function eCAL::Config::GetPublisherUdpMulticastMode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1ae2fa1793150cbce526ab0b81e1773f7b.html">Function eCAL::Config::GetRegistrationRefreshMs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a313807e5364233c84ae52d3a2ab10211.html">Function eCAL::Config::GetRegistrationTimeoutMs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a9e6cb0ba42fa6e1e34e206db76ed3a7c.html">Function eCAL::Config::GetTcpPubsubMaxReconnectionAttemps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a00f7511944c4663914c9a7d0bb0795f8.html">Function eCAL::Config::GetTcpPubsubReaderThreadpoolSize</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a6583d43cc85866c54ad0756834e02ffc.html">Function eCAL::Config::GetTcpPubsubWriterThreadpoolSize</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a606731c2e14b2a298b15abc1cdb19a50.html">Function eCAL::Config::GetTerminalEmulatorCommand</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a633d1b1b9214f6b1ce56c919bcd43eaa.html">Function eCAL::Config::GetTimesyncModuleName</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a785f3d90dc6b68ea1700f63d4f236f62.html">Function eCAL::Config::GetUdpLogFilter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a1c69db24e82f221aefb2995f47d48d59.html">Function eCAL::Config::GetUdpMulticastGroup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1ae7f51eb8b589364ad50e01d4002f2159.html">Function eCAL::Config::GetUdpMulticastMask</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a150fae520c5ad7d7ba814fde8527946f.html">Function eCAL::Config::GetUdpMulticastPort</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1aefc58fe7084b3912745ab0e9d77a3f91.html">Function eCAL::Config::GetUdpMulticastRcvBufSizeBytes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1aa30495547ba254caba3e6ed57a164fde.html">Function eCAL::Config::GetUdpMulticastSndBufSizeBytes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1aed3e5a8a68ac9c231951b80aabdbedf7.html">Function eCAL::Config::GetUdpMulticastTtl</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a5b9112fc006799ecd3e47607a9a6124d.html">Function eCAL::Config::IsInprocRecEnabled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a3856030282d0af6627fe6764c1239589.html">Function eCAL::Config::IsMemfileZerocopyEnabled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a082ee8766ff051566a4fc4eeb0ca4a70.html">Function eCAL::Config::IsNetworkEnabled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1af4eb2b0687288b44e2e363ab8b15a80b.html">Function eCAL::Config::IsNpcapEnabled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a22e6a81fbd3e1a5bb0c32e5f0bfa69aa.html">Function eCAL::Config::IsShmRecEnabled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a5163d960ca5891f6cca4303709565265.html">Function eCAL::Config::IsTcpRecEnabled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1ad37f5a6bde4bb5e92e3711a8255efe3a.html">Function eCAL::Config::IsTopicDescriptionSharingEnabled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a52d7c8d986007ec10687d7fae7e3e4fe.html">Function eCAL::Config::IsTopicTypeSharingEnabled</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__config_8h_1a159d41c9cf64a883becf2b2c5a8a099e.html">Function eCAL::Config::IsUdpMulticastRecEnabled</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__core_8h_1a1b9442b23e7971df6f41cf76a405933d.html">Function eCAL::Finalize</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__event_8h_1a4c8c0a593567bc0d3de721f077c9eb95.html">Function eCAL::gCloseEvent</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__core_8h_1aaf5f98fd50238b9b05a20ad01427fafe.html">Function eCAL::GetVersion</a></li>
@@ -202,7 +258,9 @@
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__process_8h_1ac9650b3a94782e569d1fda0f695ae880.html">Function eCAL::Process::GetWClock</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__process_8h_1af220071751dcf78044c31a778a29799a.html">Function eCAL::Process::RemRegistrationCallback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__process_8h_1a28e02d2f857c01052de373bb3e46e717.html">Function eCAL::Process::SetState</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__process_8h_1ab768762f3d5bc844ce0b025ad19c4c4a.html">Template Function eCAL::Process::SleepFor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__process_8h_1aaca4e4230ea147783192e7f2aa9dddfd.html">Function eCAL::Process::SleepMS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__process_8h_1ae0985a98ff5dcab2df42318b0ce996bb.html">Function eCAL::Process::SleepNS</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__process_8h_1a206bdbeb55b08d727e370d422d732a8f.html">Function eCAL::Process::StartProcess</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__process_8h_1ae10fb357ad61ec8a60e43ff60d62f385.html">Function eCAL::Process::StopProcess(const char *)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__process_8h_1a4a018d810e332159ef33990e9203fc6b.html">Function eCAL::Process::StopProcess(int)</a></li>
@@ -225,6 +283,12 @@
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1a2576cb50ec46867931c197b4d1935f95.html">Function eCAL::Util::GeteCALHomePath</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1afd2099777cb8277bd0f39f20a3e86a16.html">Function eCAL::Util::GeteCALLogPath</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1a2fb67b525968b2b9f8bd623b9e7dcdc1.html">Function eCAL::Util::GeteCALUserSettingsPath</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1a1a37d5a98a255b78e564b41c68746bd9.html">Function eCAL::Util::GetServiceDescription</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1af6ada090069691cfcc3b84d4bd7d190b.html">Function eCAL::Util::GetServiceTypeNames</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1ab09471063065bbde731be5d4ede67c3f.html">Function eCAL::Util::GetTopicDescription(const std::string&amp;, std::string&amp;)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1a905a81904fe00f2c54499ccbf38b037d.html">Function eCAL::Util::GetTopicDescription(const std::string&amp;)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1af879a09d2c651e40b0a6d090abfcd891.html">Function eCAL::Util::GetTopicTypeName(const std::string&amp;, std::string&amp;)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1ab218d683cae4d084dd46b745963f54be.html">Function eCAL::Util::GetTopicTypeName(const std::string&amp;)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1a5a340cf6e811ea385d783c55ded800b2.html">Function eCAL::Util::GetTypeName(const std::string&amp;, std::string&amp;)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1abe234234065284cc4a621be946b49e16.html">Function eCAL::Util::GetTypeName(const std::string&amp;)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__util_8h_1a1daff5885b14d401a446a089c2d149f2.html">Function eCAL::Util::PubShareDescription</a></li>
@@ -286,6 +350,7 @@
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1afe3c3a74ccfa61f0d811befc8d40f60a.html">Function sub_destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1abc58eef47fc5fa983d5d8a72af212a14.html">Function sub_get_qos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1a1ec1f718a0335eb6844c47e3f58c2398.html">Function sub_receive</a></li>
+<li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1ac6cdc9785b833cd571c373aab28794d2.html">Function sub_receive_buffer</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1a326dd7ba23bbd7df7c28038a5914928d.html">Function sub_rem_event_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1a5423009de750bc100d6fd3ff088f20f1.html">Function sub_rem_receive_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="function_ecal__clang_8h_1abc7e3b35431d935887d7484a390362d7.html">Function sub_set_qos</a></li>
@@ -300,7 +365,7 @@
 <li class="toctree-l3"><a class="reference internal" href="variable_ecal__init_8h_1a9b44961cef266f679dee2331899a6f83.html">Variable eCAL::Init::Service</a></li>
 <li class="toctree-l3"><a class="reference internal" href="variable_ecal__init_8h_1ad5f6f7138a1c19b5c5176fe6e77ddd73.html">Variable eCAL::Init::Subscriber</a></li>
 <li class="toctree-l3"><a class="reference internal" href="variable_ecal__init_8h_1a6ff1105112b06ca8e533846703cb51fe.html">Variable eCAL::Init::TimeSync</a></li>
-<li class="toctree-l3"><a class="reference internal" href="define_ecalc_8h_1af9bcc49cdd10d31d24e62dbdf1449be7.html">Define ECAL_ALLOCATE_4ME</a></li>
+<li class="toctree-l3"><a class="reference internal" href="define_ecalc__types_8h_1af9bcc49cdd10d31d24e62dbdf1449be7.html">Define ECAL_ALLOCATE_4ME</a></li>
 <li class="toctree-l3"><a class="reference internal" href="define_ecal__os_8h_1af6e423394b69677025cd7997c3566d77.html">Define ECAL_API</a></li>
 <li class="toctree-l3"><a class="reference internal" href="define_eh5__defs_8h_1accb613e2b9b76ded6bf8ca42b2824c5b.html">Define ECAL_HDF5_DATE</a></li>
 <li class="toctree-l3"><a class="reference internal" href="define_eh5__defs_8h_1a5fe10ba3f1fa8832219784c6edc73f0d.html">Define ECAL_HDF5_NAME</a></li>
@@ -309,17 +374,55 @@
 <li class="toctree-l3"><a class="reference internal" href="define_eh5__defs_8h_1a578e5b65d53b5a537f7d90b9d64c0106.html">Define ECAL_HDF5_VERSION_MINOR</a></li>
 <li class="toctree-l3"><a class="reference internal" href="define_eh5__defs_8h_1a2b1361eb83e2597c992f296441ac20e2.html">Define ECAL_HDF5_VERSION_PATCH</a></li>
 <li class="toctree-l3"><a class="reference internal" href="define_ecal__os_8h_1a6debe968e7507b0d497436c312288015.html">Define ECALC_API</a></li>
+<li class="toctree-l3"><a class="reference internal" href="define_ecal__os_8h_1a31a75b97ee96d0d709a6c833d3954fb2.html">Define ECALC_API_DEPRECATED</a></li>
 <li class="toctree-l3"><a class="reference internal" href="define_ecaltime_8h_1a7fbc67f7baf03488d730190a9b7df7e5.html">Define ECALTIME_API</a></li>
+<li class="toctree-l3"><a class="reference internal" href="typedef_ecal__callback_8h_1a5fa5b41873ca4d69095ec3bdfd84e8d9.html">Typedef eCAL::ClientEventCallbackT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="typedef_eh5__types_8h_1a753fcaffdfc6a8ee1681c1099adde028.html">Typedef eCAL::eh5::EntryInfoSet</a></li>
 <li class="toctree-l3"><a class="reference internal" href="typedef_eh5__types_8h_1af075e29570c5ae5b8947a5c47c48c30a.html">Typedef eCAL::eh5::EntryInfoVect</a></li>
 <li class="toctree-l3"><a class="reference internal" href="typedef_ecal__service__info_8h_1ae0436af7a525f2b5fcc30025def57c30.html">Typedef eCAL::MethodCallbackT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="typedef_ecal__callback_8h_1abe3a31dd01a78ed20f8881be6a46dc4a.html">Typedef eCAL::PubEventCallbackT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="typedef_ecal__callback_8h_1a24e137588a5d25b62798efa64dfc8835.html">Typedef eCAL::ReceiveCallbackT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="typedef_ecal__callback_8h_1a6029e274ff176ebb67d94d03a8577b31.html">Typedef eCAL::RegistrationCallbackT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="typedef_ecal__service__info_8h_1a35d0d500d3f8aed326e36ab5ddd3c535.html">Typedef eCAL::ResponseCallbackT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="typedef_ecal__service__info_8h_1a572360f74991bd1369ea24b5b7a0b6bb.html">Typedef eCAL::ResponseCallbackT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="typedef_ecal__callback_8h_1a4421750eb800d4ae997ed45622bece4b.html">Typedef eCAL::ServerEventCallbackT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="typedef_ecal__service__info_8h_1a36106945ed691d2225be35b428072270.html">Typedef eCAL::ServiceResponseVecT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="typedef_ecal__callback_8h_1acfa9950c8768a6a9a4445c8bb0f6cccf.html">Typedef eCAL::SubEventCallbackT</a></li>
 <li class="toctree-l3"><a class="reference internal" href="typedef_ecal__callback_8h_1afa9b0ed5fa82263c5b5a0cb7fe96613d.html">Typedef eCAL::TimerCallbackT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="typedef_ecalc_8h_1a6801786d75d8af7f213d45239018884b.html">Typedef ECAL_HANDLE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="typedef_ecalc__types_8h_1a6801786d75d8af7f213d45239018884b.html">Typedef ECAL_HANDLE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="typedef_ecal__log__level_8h_1ac1acb1e4b9e121f91d4daac215ae1fc7.html">Typedef eCAL_Logging_Filter</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../_api_python/modules.html">python</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../_api_python/ecal.html">ecal package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../_api_python/ecal.core.html">ecal.core package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../_api_python/ecal.core.pb.html">ecal.core.pb package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../_api_python/ecal.core.pb.ecal_pb2.html">ecal.core.pb.ecal_pb2 module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../_api_python/ecal.core.pb.host_pb2.html">ecal.core.pb.host_pb2 module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../_api_python/ecal.core.pb.layer_pb2.html">ecal.core.pb.layer_pb2 module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../_api_python/ecal.core.pb.monitoring_pb2.html">ecal.core.pb.monitoring_pb2 module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../_api_python/ecal.core.pb.process_pb2.html">ecal.core.pb.process_pb2 module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../_api_python/ecal.core.pb.service_pb2.html">ecal.core.pb.service_pb2 module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../_api_python/ecal.core.pb.topic_pb2.html">ecal.core.pb.topic_pb2 module</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../_api_python/ecal.core.core.html">ecal.core.core module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../_api_python/ecal.core.publisher.html">ecal.core.publisher module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../_api_python/ecal.core.service.html">ecal.core.service module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../_api_python/ecal.core.subscriber.html">ecal.core.subscriber module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../_api_python/ecal.measurement.html">ecal.measurement package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../_api_python/ecal.measurement.hdf5.html">ecal.measurement.hdf5 module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../_api_python/ecal.measurement.measurement.html">ecal.measurement.measurement module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../_api_python/ecal.proto.html">ecal.proto package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../_api_python/ecal.proto.helper.html">ecal.proto.helper module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../_api_python/setup.html">setup module</a></li>
 </ul>
 </li>
 </ul>
@@ -347,45 +450,41 @@
 <li class="toctree-l3"><a class="reference internal" href="../applications/sys/sys_architecture.html"> eCAL Sys Architecture</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../applications/sys/sys_gui.html"> eCAL Sys GUI</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../applications/sys/sys_cli.html"> eCAL Sys CLI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../applications/sys/sys_client.html"> eCAL Sys Client</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../applications/meas_cutter/meas_cutter.html">eCAL Measurement Cutter</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../faq.html">FAQ</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Advanced</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/compatibility.html">eCAL Compatibility</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/documentation.html">Edit the documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/configuration.html">eCAL Configuration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/performance.html">Performance measurements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/transport_layers.html">Transport Layers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../advanced/threading_model.html">Threading model</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../license.html">License</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../license/ecal_license.html">eCAL License</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../license/thirdparty_licenses.html">Thirdparty Licenses</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/apache-2.0.html">Apache 2.0</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/boost-1.0.html">Boost Software License 1.0</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/bsd-3.html">BSD 3</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/convert-utf.html">Convert UTF License</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/fontawesome-free.html">Fontawesome Free License</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/gpl-2.0.html">GPL 2.0</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/gpl-3.0.html">GPL 3.0</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/hdf5-bsd-3.html">HDF5 BSD-3</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/lgpl-2.1.html">LGPL 2.1</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/lgpl-3.0.html">LGPL 3.0</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/mit.html">MIT</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/npcap.html">Npcap license</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/unlicense.html">Unlicense</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/zlib.html">zlib</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../license/icon_license.html">Icon License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../versions/ecal_versions.html">eCAL Versions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../versions/compatibility.html">eCAL Compatibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../versions/5.10/whats_new.html">eCAL 5.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../versions/5.9/whats_new.html">eCAL 5.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../versions/5.8/whats_new.html">eCAL 5.8</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../_download_archive/download_archive.html">eCAL Download Archive</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_10_2.html">eCAL 5.10.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_10_1.html">eCAL 5.10.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_10_0.html">eCAL 5.10.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_9_10.html">eCAL 5.9.10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_9_8.html">eCAL 5.9.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_9_7.html">eCAL 5.9.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_9_6.html">eCAL 5.9.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_9_5.html">eCAL 5.9.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_9_4.html">eCAL 5.9.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_9_2.html">eCAL 5.9.2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_9_1.html">eCAL 5.9.1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_9_0.html">eCAL 5.9.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_8_20.html">eCAL 5.8.20</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_8_19.html">eCAL 5.8.19</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_8_18.html">eCAL 5.8.18</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_8_17.html">eCAL 5.8.17</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_8_15.html">eCAL 5.8.15</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_8_14.html">eCAL 5.8.14</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_8_13.html">eCAL 5.8.13</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_8_12.html">eCAL 5.8.12</a></li>
@@ -424,6 +523,52 @@
 <li class="toctree-l2"><a class="reference internal" href="../_download_archive/download_archive_ecal_5_3_4_4.html">eCAL 5.3.4+4</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/tutorials.html">Tutorials</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../advanced/documentation.html">Edit the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced/ecal_in_docker.html">eCAL in Docker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../development/building_ecal_with_conan_dependencies.html">Building eCAL with Conan dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/rec_distributed_recordings.html">Distributed Recordings with eCAL Rec</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/ecal_internals.html">eCAL internals</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../advanced/performance.html">Performance measurements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced/transport_layers.html">Transport Layers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../advanced/layers/shm.html">eCAL SHM Layer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../advanced/layers/udp_mc.html">eCAL UDP Layer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../advanced/layers/tcp.html">eCAL TCP Layer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../advanced/layers/inproc.html">eCAL Inner-Process Layer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced/threading_model.html">Threading model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../advanced/measurement_format.html">eCAL Measurement Format</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/ros_comparison.html">How eCAL relates to ROS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../license.html">License</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../license/ecal_license.html">eCAL License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../license/thirdparty_licenses.html">Thirdparty Licenses</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/apache-2.0.html">Apache 2.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/boost-1.0.html">Boost Software License 1.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/bsd-3.html">BSD 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/convert-utf.html">Convert UTF License</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/creative-commons-3.0.html">Creative Commons 3.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/findqwt-bsd-2.html">Findqwt-style BSD2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/fontawesome-free.html">Fontawesome Free License</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/gpl-2.0.html">GPL 2.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/gpl-3.0.html">GPL 3.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/hdf5-bsd-3.html">HDF5 BSD-3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/lgpl-2.1.html">LGPL 2.1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/lgpl-3.0.html">LGPL 3.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/mit.html">MIT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/npcap.html">Npcap license</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/qwt.html">qwt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/unlicense.html">Unlicense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../license/thirdparty_licenses/zlib.html">zlib</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../license/icon_license.html">Icon License</a></li>
+</ul>
+</li>
 </ul>
 
                                     <p class="caption"><span class="caption-text">PAGE CONTENTS</span></p>
@@ -446,22 +591,22 @@
         <li class="breadcrumb-item"><a href="../index.html">Start</a></li>
         <li class="breadcrumb-item active" aria-current="page">Program Listing for File ecalc.h</li>
     </ol>
-        <div class="breadcrumb-additions">
-            <a class="btn btn-sm btn-primary" id="btnHowToEdit"
-               href="https://continental.github.io/ecal/advanced/documentation.html"
-               rel="nofollow noopener" target="_blank">
-                <span class="btn-icon"><span class="fas fa-info-circle"></span></span>
-                <span class="btn-text">How to edit</span>
-            </a>
-                <a class="btn btn-sm btn-light" id="btnEditOnGitHub" href="https://github.com/continental/ecal/blob/master/doc/rst/_api/program_listing_file_ecal_core_include_ecal_ecalc.h.rst">
-                    <span class="btn-icon"><span class="fab fa-github"></span></span>
-                    <span class="btn-text">Edit on GitHub</span>
-                </a>
-                <a class="btn btn-sm btn-light" href="../_sources/_api/program_listing_file_ecal_core_include_ecal_ecalc.h.rst.txt" rel="nofollow">
-                    <span class="btn-icon"><span class="fas fa-code"></span></span>
-                    <span class="btn-text">View source</span>
-                </a>
-        </div>
+    <div class="breadcrumb-additions">
+        <a class="btn btn-sm btn-light" href="../_sources/_api/program_listing_file_ecal_core_include_ecal_ecalc.h.rst.txt" rel="nofollow">
+            <span class="btn-icon"><span class="fas fa-code"></span></span>
+            <span class="btn-text">View source</span>
+        </a>
+        <a class="btn btn-sm btn-light" id="btnHowToEdit"
+           href="https://eclipse-ecal.github.io/ecal/advanced/documentation.html"
+           rel="nofollow noopener" target="_blank">
+            <span class="btn-icon"><span class="fas fa-info-circle"></span></span>
+            <span class="btn-text">How to edit</span>
+        </a>
+        <a class="btn btn-sm btn-light" id="btnEditOnGitHub" href="https://github.com/eclipse-ecal/ecal/blob/master/doc/rst/_api/program_listing_file_ecal_core_include_ecal_ecalc.h.rst">
+            <span class="btn-icon"><span class="fab fa-github"></span></span>
+            <span class="btn-text">Edit on GitHub</span>
+        </a>
+    </div>
 </div>
 <!-- /breadcrumbs.html -->
                         <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -496,13 +641,11 @@
   <span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span><span class="cp"></span>
 <span class="cp">#endif</span>
 
-<span class="cp">#define ECAL_ALLOCATE_4ME 0</span>
-
-<span class="k">typedef</span> <span class="kt">void</span><span class="o">*</span> <span class="n">ECAL_HANDLE</span><span class="p">;</span>
-
 <span class="c1">// all ecal c includes</span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/ecal_os.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/ecal_defs.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;ecal/ecalc_types.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_client_cimpl.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_core_cimpl.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_event_cimpl.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_log_cimpl.h&gt;</span><span class="cp"></span>
@@ -510,7 +653,7 @@
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_process_cimpl.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_publisher_cimpl.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_qos_cimpl.h&gt;</span><span class="cp"></span>
-<span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_service_cimpl.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_server_cimpl.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_subscriber_cimpl.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_proto_dyn_json_subscriber_cimpl.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;ecal/cimpl/ecal_time_cimpl.h&gt;</span><span class="cp"></span>
@@ -545,13 +688,13 @@
                 <div class="footer-additional">
                     <p class="text-center">
                         <a href="https://github.com/TYPO3-Documentation/sphinx_typo3_theme" rel="nofollow" target="_blank">
-                            TYPO3 Theme 4.5.2
+                            TYPO3 Theme 4.6.2
                         </a>
                     </p>
                 </div>
                 <div class="footer-meta">
                     <div class="footer-meta-copyright">
-                        &copy; Copyright 2021, Continental
+                        &copy; Copyright 2022, Continental
                     </div>
                 </div>
             </div>

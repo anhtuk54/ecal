@@ -40,6 +40,13 @@ The eCAL Recorder has two essential modes for creating recordings:
 
    Of course, mixed configurations are possible (e.g. some machines will only record their own topics, while other machines will also record topics of some external machines).
 
+   .. seealso::
+
+      .. youtube:: h3DUirOMfu8
+         :align: center
+         :height: 300px
+
+
 .. _applications_recorder_host_client_architecture:
 
 Host / Client Architecture
@@ -55,7 +62,7 @@ A (distributed) eCAL Rec setup consists of 2 applications:
 
    The Host Application is your main Recording application.
 
-   In a `Centraliced` recording (All topics are recorded over network by just one recorder), this is the only applicaiton you need.
+   In a `Centralized` recording (All topics are recorded over network by just one recorder), this is the only application you need.
    It will function standalone and record everything that is configured to be recorded.
    In a `Distributed` recording (Each machine records its own topics), this application controls the connected clients.
 
